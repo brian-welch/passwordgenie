@@ -1,0 +1,3 @@
+const browserMessage = () => {
+    return "browserMessage();"
+}
