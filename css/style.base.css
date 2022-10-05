@@ -1,9 +1,9 @@
 * {
-    font-family: 'OpenSans';
+    font-family: 'Baloo2';
     letter-spacing: 1px;
     font-size: 16px;
     color: var(--very-dark, black);
-    line-height: 24px;
+    /* line-height: 24px; */
     transition: all ease-out 300ms;
 }
 
@@ -25,4 +25,40 @@ main {
 
 .hide-me {
     display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+    font-weight: bold;
+    margin: 24px;
+}
+
+h1 {
+    font-size: 41px;
+    line-height: 49px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 31px;
+    line-height: 39px;
+}
+
+h4 {
+    font-size: 26px;
+    line-height: 34px;
+}
+
+h5 {
+    font-size: 21px;
+    line-height: 29px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 24px;
 }
